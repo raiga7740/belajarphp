@@ -2,7 +2,7 @@
 $host = "localhost";
 $user = "root";
 $pass = "";
-$db   = "kasir_db";
+$db   = "contoh";
 
 $conn = mysqli_connect($host, $user, $pass, $db);
 

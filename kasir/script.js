@@ -62,7 +62,7 @@ function editBarang(index) {
     // Isi form dengan data yang akan diedit
     document.getElementById("namaBarang").value = item.nama;
     document.getElementById("harga").value = item.harga;
-    document.getElementById("jumlah").value = item.jumlah;
+    document.getElementById("jumlahBarang").value = item.jumlah;
     
     // Simpan index yang sedang diedit
     indexSedangEdit = index;
@@ -101,7 +101,7 @@ document.getElementById("formBarang").addEventListener("submit", function(event)
 
     let nama = document.getElementById("namaBarang").value;
     let harga = parseInt(document.getElementById("harga").value);
-    let jumlah = parseInt(document.getElementById("jumlah").value);
+    let jumlah = parseInt(document.getElementById("jumlahBarang").value);
 
     // ==================== VALIDASI INPUT ====================
     if (!nama || harga <= 0 || jumlah <= 0) {
