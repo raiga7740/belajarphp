@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    border-top: 6px solid #e30613;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #e30613;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #0057b8;
+}
+
+.form-section, .cart-section, .payment-section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: #fffbea;
+    border-radius: 10px;
+    border-left: 5px solid #e30613;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #0057b8;
+    border-radius: 4px;
+}
+
+.btn-tambah {
+    background: #e30613;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-tambah:hover {
+    background: #b8000f;
+}
+
+.btn-edit {
+    background: #ffc107;
+    color: #000;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-hapus {
+    background: #e30613;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-update {
+    background: #0057b8;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-batal {
+    background: #6c757d;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-hitung {
+    background: #0057b8;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-reset {
+    background: #e30613;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.table-barang {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.table-barang th, .table-barang td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.tablebarang th {
+    background: #0057b8;
+    color: #333;
+}
+
+.tablebarang tr:hover {
+    background: #ffc107;
+}
+
+.edit-mode {
+    border: 2px solid #007bff;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#totalBelanja, #kembalian {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #e30613;
+    margin-top: 10px;
+}
+
+.payment-section input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
